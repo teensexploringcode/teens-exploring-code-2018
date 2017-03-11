@@ -1,2 +1,1 @@
-# tec2017
-hey its me
+# teens-exporing-code-2017
