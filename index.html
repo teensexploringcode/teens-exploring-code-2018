@@ -1,106 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<meta property="og:image" content="/static/img/banner.png"/>
-		<link rel="icon" href="static/img/favicon/favicon.ico">
-		<link rel="icon" sizes="16x16 32x32 64x64" href="/static/img/favicon/favicon.ico">
-		<link rel="icon" type="image/png" sizes="196x196" href="static/img/favicon/favicon-192.png">
-		<link rel="icon" type="image/png" sizes="160x160" href="static/img/favicon/favicon-160.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96.png">
-		<link rel="icon" type="image/png" sizes="64x64" href="static/img/favicon/favicon-64.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16.png">
-		<link rel="apple-touch-icon" href="static/img/favicon/favicon-57.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/favicon-114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/favicon-72.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/favicon-144.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/favicon-60.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/favicon-120.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/favicon-76.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/favicon-152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/favicon-180.png">
-		<meta name="msapplication-TileColor" content="#fff">
-		<meta name="msapplication-TileImage" content="static/img/favicon/favicon-144.png">
-		<meta name="msapplication-config" content="static/img/favicon/browserconfig.xml">
-		<title>Teens Exploring Code</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300' rel='stylesheet' type='text/css'>
-	</head>
-	<body style = "">
 
-	<!--uncomment mlh badge if we get in-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:image" content="/static/img/banner.png"/>
+    <link rel="icon" href="static/img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/static/img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="static/img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="static/img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="static/img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="static/img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/favicon-144.png">
+    <meta name="msapplication-config" content="static/img/favicon/browserconfig.xml">
+    <title>Teens Exploring Code</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300' rel='stylesheet' type='text/css'>
+</head>
 
-<!-- 	<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;left:50px;top:0;width:10%;z-index:99" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%; margin-right:0px"></a>
- -->
+<body style = "">
+
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;left:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/gray.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+
 <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-<!--         <div class="navbar-header"> -->
-<!--           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-<!--           <a class="navbar-brand" href="#"></a>
-        </div> -->
+    <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-						<li><a class="smoothScroll" href="#about">About</a></li>
-<!-- 						<li><a class="page-scroll" href="#schedule">Schedule</a></li> -->
-						<li><a class="smoothScroll" href="#faq">FAQ</a></li>
-						<li><a class="smoothScroll" href="#people">The Team</a></li>
-						<li><a class="smoothScroll" href="#sponsors">Sponsors</a></li>
-					</ul>
-				</div>
-      </div>
-    </nav> 
-		<section id="banner" style=""><!--  style = "padding-top:11%" -->
-		<div class="event-panel container" style = "text-align: center !important;">
-				<p style="font-size:50px" class = "">Teens Exploring Code</p>
-				<h3 style = "text-align: center; !important; padding-bottom:20px">February 17 - 18, 2018</h3>
-				<a class="ghost-button-transition" href="#">LEARN MORE</a>
-				<a class="ghost-button-transition" href="https://www.facebook.com/teensexploringcode/" target = "_blank">GET UPDATES</a>
-		</div>
-		</section>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="smoothScroll" href="#about">About</a></li>
+                <li><a class="smoothScroll" href="#faq">FAQ</a></li>
+                <li><a class="smoothScroll" href="#people">Team</a></li>
+                <li><a class="smoothScroll" href="#sponsors">Sponsors</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> 
+
+<section id="banner">
+    <div class="event-panel container" style = "text-align: center !important;">
+		<p style="font-size:50px" class = "">Teens Exploring Code</p>
+		<h3 style = "text-align: center; !important; padding-bottom:20px">February 17 - 18, 2018</h3>
+		<a class="ghost-button-transition" href="#">REGISTER</a>
+		<a class="ghost-button-transition" href="https://www.facebook.com/teensexploringcode/" target = "_blank">GET UPDATES</a>
+    </div>
+</section>
 
 
-		<section class="bg-primary" style = "background-color:#332448" id="about">
-			<div class="container">
-			<div class = "row">
-						<div class = "col-lg-4">
-			<img src="static/img/logowhite.png" id="logo" style="float:center;/*margin-top:20%*/;padding-bottom: 50px">
-			</div>
-			<div class = "col-lg-8">
-				<div class = "about-info">
-					<p>If you have quirky ideas you want to bring to life, or if you want to collaborate on something meaningful with other inquisitive teens like you, join us for Teens Exploring Code (TEC) 2017!</p>
-					<p>In 14 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking and powerful. With two unique tracks and various workshops throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
-					<p>Beginners should attend the two Python workshops (one in the morning and one in the afternoon) to get started with programming and work on projects. Non-beginners are encouraged to attend other fun workshops offered later in the day.</p>
-				</div>
-			</div>
-			</div>
-			</div>
-		</section>
+<section class="bg-primary" style = "background-color:#332448" id="about">
+    <div class="container">
+        <div class = "row">
+            <div class = "col-lg-4">
+                <img src="static/img/logowhite.png" id="logo" style="float:center;padding-bottom: 50px">
+            </div>
+
+            <div class = "col-lg-8">
+                <div class = "about-info">
+                    <p>If you have quirky ideas you want to bring to life, or if you want to collaborate on something meaningful with other inquisitive teens like you, join us for Teens Exploring Code (TEC) 2017!</p>
+                    <p>In 14 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking and powerful. With two unique tracks and various workshops throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
+                    <p>Beginners should attend the two Python workshops (one in the morning and one in the afternoon) to get started with programming and work on projects. Non-beginners are encouraged to attend other fun workshops offered later in the day.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <style>
-
-
-
 .parallax { 
-
-
-      background: linear-gradient(rgba(60, 23, 54,.9), rgba(60, 23, 54,.9)),
+    background: linear-gradient(rgba(60, 23, 54,.9), rgba(60, 23, 54,.9)),
     url('static/img/parallax1.jpg');
-    /*height: 100%; */
-
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,296 +95,123 @@
 	background: rgba(248, 247, 216, 0.7);
 }
 </style>
-			<section class = "parallax" style = "/*background-color:#3C1736*/; color:white;" id = "faq">
-			<!-- <div class = "layer"> -->
-<!-- 			<section class="bg-blue" id="faq"> -->
-				<div class="container">
-					<div class="row">
-						<h1>FAQ</h1>
-						<div class="col-md-6 col-xs-12 text-center">
-							<h3>Who can attend?</h3>
-							<p>Participants ages 13-19 are welcome to attend! If you are out of this age range and wish to attend, please contact us.</p>
-							<h3>What’s the format of the event?</h3>
-							<p>You’ll join a team and work on an original project together throughout the whole day and present it at the end. For beginners, we provide two Python workshops that will get you started and let you form teams with others at your skill level. For non-beginners, you’ll begin on your projects right after forming teams, and can also attend interesting workshops throughout the day. <!-- Check the <a href="#schedule">schedule</a> for more info! --></p>
-							<h3>How much does this cost?</h3>
-						<p>Nothing! TEC is free of charge, but we greatly appreciate any donations that would go towards supporting the event.</p>
-						<h3>How do I sign up?</h3>
-						<p>Signups will open closer to the event date. Check back for updates on registration!</p>
-						<!-- <p>Apply through this <a href="https://tec2016.typeform.com/to/NvR0Xb" target="_blank">online form</a>. Please only apply if you are <b>certain</b> that you will be able to attend for the whole time. You will get a confirmation email closer to the event securing your spot. We will be accepting people from all ranges of experience, so please answer the questions truthfully!</p> -->
-					</div>
-					<div class="col-md-6 col-xs-12 text-center">
-						<h3>What do I need to bring?</h3>
-						<p>Bring your laptop and your student ID or any official ID. Lunch, dinner, and refreshments are provided, but you are welcome to bring your own snacks or food as well. Bring hardware if you plan on incorporating it into your project (contact us if you’d like to rent any).</p>
-						<h3>What can I make?</h3>
-						<p>Anything you can! Web, mobile, hardware, or anything else you’re interested in.</h3>
-						<h3>How do teams work?</h3>
-						<p>Teams can have up to 4 people. If you’re a beginner, you’ll be able to form teams and develop project ideas with others at your skill level during the first Python workshop. For non-beginners, we’ll also have designated times for you to form teams and gather ideas.</p>
-						<h3>Are there prizes?</h3>
-						<p>Yes! More info on prizes will be released closer to the event date. Stay tuned!<!-- Because we want to promote an atmosphere conducive to trying new things, prizes will not be project-based. But the prizes will be awesome and everyone will receive free swag (and knowledge!) regardless. --></p>
-					</div>
-				</div>
-			</div>
-			</div>
-		</section>
-
-<!-- 		<section class="" style = "; background-color: #3C2E53;" id="people">
-        <h1 style="color:white; text-align: center; padding-bottom: 50px;">Meet Us</h1>
-        <div class="container-fluid">
-        <div class = "row" style = "
-            margin-left: 10%;
-            margin-right: 10%;
-            display: grid;
-        ">
-                <div class="portfolio-box" style = "grid-column: 1">
-                    <img src="static/img/kelsey.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Founder
-                            </div>
-                            <div class="project-name">
-                                Kelsey Wang
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/alice.jpg" class="img-responsive" alt="" style="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Founder
-                            </div>
-                            <div class="project-name">
-                                Alice Zhang
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/me.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Head Organizer
-                            </div>
-                            <div class="project-name">
-                                Emily Yu
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/troll.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Sponsorship
-                            </div>
-                            <div class="project-name">
-                                Ashkay Bodla
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/isha.png" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Logistics
-                            </div>
-                            <div class="project-name">
-                                Isha Rajput
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/mihir.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Member
-                            </div>
-                            <div class="project-name">
-                                Mihir Singhal
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/calvin.png" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Logistics
-                            </div>
-                            <div class="project-name">
-                                Calvin Yan
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="static/img/troll.png" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Marketing
-                            </div>
-                            <div class="project-name">
-                                Ashley Gauba
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<section class = "parallax" style = "color:white;" id = "faq">
+    <div class="container">
+        <div class="row">
+            <h1>FAQ</h1>
+            <div class="col-md-6 col-xs-12 text-center">
+                <h3>Who can attend?</h3>
+                <p>Participants ages 13-19 who have agreed to the <a style="font-weight:bold;text-decoration:underline;color:white !important" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a> are welcome to attend! If you are out of this age range and wish to attend, please contact us.</p>
+                <h3>What’s the format of the event?</h3>
+                <p>You’ll join a team and work on an original project together throughout the whole day and present it at the end. For beginners, we provide two Python workshops that will get you started and let you form teams with others at your skill level. For non-beginners, you’ll begin on your projects right after forming teams, and can also attend interesting workshops throughout the day. <!-- Check the <a href="#schedule">schedule</a> for more info! --></p>
+                <h3>How much does this cost?</h3>
+                <p>Nothing! TEC is free of charge, but we greatly appreciate any donations that would go towards supporting the event.</p>
+                <h3>How do I sign up?</h3>
+                <p>Signups will open closer to the event date. Check back for updates on registration!</p>
+                <!-- <p>Apply through this <a href="https://tec2016.typeform.com/to/NvR0Xb" target="_blank">online form</a>. Please only apply if you are <b>certain</b> that you will be able to attend for the whole time. You will get a confirmation email closer to the event securing your spot. We will be accepting people from all ranges of experience, so please answer the questions truthfully!</p> -->
+            </div>
+            <div class="col-md-6 col-xs-12 text-center">
+                <h3>What do I need to bring?</h3>
+                <p>Bring your laptop and your student ID or any official ID. Lunch, dinner, and refreshments are provided, but you are welcome to bring your own snacks or food as well. Bring hardware if you plan on incorporating it into your project (contact us if you’d like to rent any).</p>
+                <h3>What can I make?</h3>
+                <p>Anything you can! Web, mobile, hardware, or anything else you’re interested in.</h3>
+                <h3>How do teams work?</h3>
+                <p>Teams can have up to 4 people. If you’re a beginner, you’ll be able to form teams and develop project ideas with others at your skill level during the first Python workshop. For non-beginners, we’ll also have designated times for you to form teams and gather ideas.</p>
+                <h3>Are there prizes?</h3>
+                <p>Yes! More info on prizes will be released closer to the event date. Stay tuned!<!-- Because we want to promote an atmosphere conducive to trying new things, prizes will not be project-based. But the prizes will be awesome and everyone will receive free swag (and knowledge!) regardless. --></p>
             </div>
         </div>
-    </section> -->
-        <section id="people" class="content-section text-center" style = "background-color: #3C2E53;">
-        <div class="download-section">
-            <div class="row">
-                <!-- <div class="col-lg-8"> -->
-                        <h3 style = "padding-bottom: 40px; color: white">Team</h3>
+    </div>
+</section>
 
-                    <div class = "col-lg-2 col-lg-offset-3">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/me.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Emily Yu<br>Head Organizer</p>
-                    </div>
-                    <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/kelsey.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Kelsey Wang<br>Founder</p>
-                    </div>
-                    <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/alice.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Alice Zhang<br>Founder</p>
-                    </div>
-                <!-- </div> -->
+<section id="people" class="content-section text-center" style = "background-color: #3C2E53;">
+    <div class="download-section">
+        <div class="row">
+            <h3 style = "padding-bottom: 40px; color: white">Team</h3>
+
+            <div class = "col-lg-2 col-lg-offset-3">
+                <img style = "border-radius: 50%;height:200px" src="static/img/me.jpg">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Emily Yu<br>Head Organizer</p>
             </div>
-                        <div class="row">
-                <!-- <div class="col-lg-8"> -->
-                        <!-- <h3 style = "padding-bottom: 40px">Team</h3> -->
-
-                    <div class = "col-lg-2 col-lg-offset-3">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/same.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Ashkay Bodla<br>Sponsorship</p>
-                    </div>
-                    <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/isha.png">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Isha Rajput<br>Logistics</p>
-                    </div>
-                    <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/calvin.png">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Calvin Yan<br>Logistics</p>
-                    </div>
-                <!-- </div> -->
+            <div class = "col-lg-2">
+                <img style = "border-radius: 50%;height:200px" src="static/img/kelsey.jpg">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Kelsey Wang<br>Founder</p>
             </div>
-                        <div class="row">
-                <!-- <div class="col-lg-8"> -->
-                        <!-- <h3 style = "padding-bottom: 40px">Team</h3> -->
-
-                    <div class = "col-lg-2 col-lg-offset-3">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/same.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Ashley Gauba<br>Marketing</p>
-                    </div>
-<!--                     <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/mihir.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Patrick Zhong</p>
-                    </div>
-                    <div class = "col-lg-2">
-                        <img style = "border-radius: 50%;height:200px" src="static/img/mihir.jpg">
-                        <p style = "padding-top: 30px; padding-bottom: 30px">Adriano Hernandez</p>
-                    </div> -->
-                <!-- </div> -->
+            <div class = "col-lg-2">
+                <img style = "border-radius: 50%;height:200px" src="static/img/calvin.png">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Calvin Yan<br>Logistics</p>
             </div>
         </div>
-    </section>
-    <style>
+        <div class="row">
+            <div class = "col-lg-2 col-lg-offset-3">
+                <img style = "border-radius: 50%;height:200px" src="static/img/same.jpg">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Akshay Bodla<br>Sponsorship</p>
+            </div>
+            <div class = "col-lg-2">
+                <img style = "border-radius: 50%;height:200px" src="static/img/isha.png">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Isha Rajput<br>Logistics</p>
+            </div>
+            <div class = "col-lg-2">
+                <img style = "border-radius: 50%;height:200px" src="static/img/same.jpg">
+                <p style = "padding-top: 30px; padding-bottom: 30px">Ashley Gauba<br>Marketing</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
 #people > div > div > div > p {
     color: white;
 }
 </style>
 		
-	<footer class="parallax" id="sponsors" style="padding-top:50px;padding-bottom: 50px">
-		<div class = "container">
-				<div class = "row">
-    				<div class = "col-lg-12" style="padding-top:0px;">
-    					<a class="ghost-button-transition" href="static/sponsorship_packet.pdf">SPONSORSHIP PACKAGE</a>
-                    </div>
+<footer class="parallax" id="sponsors" style="padding-top:50px;padding-bottom: 50px">
+	<div class = "container">
+			<div class = "row">
+				<div class = "col-lg-12" style="padding-top:0px;">
+					<a class="ghost-button-transition" href="static/sponsorship_packet.pdf">SPONSORSHIP PACKAGE</a>
                 </div>
-			</div></div>
+            </div>
+		</div>
+    </div>
+</footer>
 
-		</footer>
-		<footer class="footer" style="padding-top: 10px">
-			<div class="container">
-				<div class = "row">
-
-					<div class = "col-lg-6" style="">
-<a class="ghost-button-short" href="http://teensexploringcode.github.io/teens-exploring-code-2016/" style="">VISIT 2016</a>
-					</div>
-
-					<div class = "col-lg-6">
-
-					<div style = "text-align: right">
-					<a href="https://www.facebook.com/teensexploringcode/"><i class="fa fa-facebook-square" style="padding-right: 10px; padding-bottom:10px; float: center"></i></a>
-					<a href="mailto:teensexploringcode@gmail.com"><i class="fa fa-2x fa-envelope" style = "color:white !important; float: center; text-align: center;     display:inline-block;" aria-hidden="true"></i></a>
-					</div></div>
-				</div>
+<footer class="footer" style="padding-top: 10px">
+	<div class="container">
+		<div class = "row">
+			<div class = "col-lg-6" style="">
+                <a class="ghost-button-short" href="http://teensexploringcode.github.io/teens-exploring-code-2016/" style="">VISIT 2016</a>
 			</div>
-		</footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-		<script src="js/header.js"></script>
-		</script>
 
-	<script>
+			<div class = "col-lg-6"> 
+    			<div style = "text-align: right">
+        			<a href="https://www.facebook.com/teensexploringcode/"><i class="fa fa-facebook-square" style="padding-right: 10px; padding-bottom:10px; float: center"></i></a>
+        			<a href="mailto:teensexploringcode@gmail.com"><i class="fa fa-2x fa-envelope" style = "color:white !important; float: center; text-align: center;     display:inline-block;" aria-hidden="true"></i></a>
+    			</div>
+            </div>
+		</div>
+	</div>
+</footer>
+
+<script>
 $(function myfunction(){
-$(".element").typed({
-    strings: ["Teens Exploring Code "],
-    typeSpeed: 2,
-    backDelay: 1000,
-    loop:false
-});
+    $(".element").typed({
+        strings   : ["Teens Exploring Code "],
+        typeSpeed : 2,
+        backDelay : 1000,
+        loop      : false
+    });
 });
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header.js"></script>
 <script src = "typed.min.js"></script>
 <script src="typed.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/smoothscroll.js"></script>
-  </body>
+
+</body>
 </html>
-
-<style type="text/css">
-/*	[cc escaped=”true” lang=”css”]* { outline: 2px dotted red }
-* * { outline: 2px dotted green }
-* * * { outline: 2px dotted orange }
-* * * * { outline: 2px dotted blue }
-* * * * * { outline: 1px solid red }
-* * * * * * { outline: 1px solid green }
-* * * * * * * { outline: 1px solid orange }
-* * * * * * * * { outline: 1px solid blue }[/cc]*/
-
-/*div {
-    border: 1px dashed red
-}*/
-
-@media (min-width:550px){
-    .row {
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-@media (min-width:758px){
-    .row{
-        grid-template-columns: repeat(4, 1fr)
-    }
-}
-</style>
