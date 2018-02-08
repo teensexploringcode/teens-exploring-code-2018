@@ -54,6 +54,7 @@ p {
 }
 
 .bg-primary {
+    z-index: 1;
     color: #fff;
     background-color: #7b1451;
     font-weight: 600;
@@ -158,11 +159,20 @@ section {
   height: 60%;
 }
 
-#logo {
+.title-text {
+  font-size: 50px;
+}
+
+.logo {
   width: 33vh;
   left: 50%;
   position: relative;
   transform: translate(-50%);
+}
+
+#logo-mobile {
+  display: none;
+  visibility: hidden;
 }
 
 .event-panel {
@@ -192,21 +202,30 @@ section {
 }
 
 @media(max-width:768px) {
+  #logo-web {
+    display: none;
+    visibility: hidden;
+  }
+
+  #logo-mobile {
+    display: block;
+    visibility: visible;
+  }
+
+  .title-text {
+    font-size: 50px;
+  }
+
   .sponsor-logo {
     width: 30vw;
   }
-  
-  #logo {
+
+  .logo {
     z-index: 1;
     margin-top: 100px;
     width: 25vh;
   }
 
-  #banner {
-    background-image: url("../static/img/banner.png");
-    background-size: cover;
-    height: 60vh;
-  }
   #title {
     font-size: 36pt!important;
   }
@@ -244,21 +263,6 @@ section {
 
 #sponsors {
   text-align: center;
-}
-
-.logo {
-  display: inline-block;
-}
-
-.logo img {
-  height: 150px;
-  width: auto;
-  margin: 20px;
-  border: 0;
-}
-
-.logo-small img {
-  height: 75px!important;
 }
 
 /* Footer */
@@ -302,12 +306,9 @@ section {
   transition: background-color 0.2s ease-out,
               color 0.2s ease-out;
 }
-.ghost-button-transition:hover,
-.ghost-button-transition:active {
+.ghost-button-transition:hover{
   background-color: #fff;
   color: #000;
-  transition: background-color 0.2s ease-in,
-              color 0.2s ease-in;
   text-decoration: none
 }
 
