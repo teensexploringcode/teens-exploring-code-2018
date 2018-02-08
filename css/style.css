@@ -187,7 +187,26 @@ section {
   background-color: transparent;
 }
 
+.sponsor-logo {
+  width: 30vw;
+}
+
 @media(max-width:768px) {
+  .sponsor-logo {
+    width: 30vw;
+  }
+  
+  #logo {
+    z-index: 1;
+    margin-top: 100px;
+    width: 25vh;
+  }
+
+  #banner {
+    background-image: url("../static/img/banner.png");
+    background-size: cover;
+    height: 60vh;
+  }
   #title {
     font-size: 36pt!important;
   }
@@ -271,6 +290,7 @@ section {
 
 
 .ghost-button-transition {
+  z-index: 3;
   display: inline-block;
   width: 200px;
   padding: 8px;
@@ -377,4 +397,3 @@ section {
     padding-right: 0;
     padding-left: 0;
 }
-
