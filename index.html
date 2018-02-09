@@ -51,11 +51,11 @@
             </ul>
         </div>
     </div>
-</nav> 
+</nav>
 
 <section id="banner">
-    <div class="event-panel container" style = "text-align: center !important;">
-		<p style="font-size:50px" class = "">Teens Exploring Code</p>
+    <div class="event-panel" style = "text-align: center !important;">
+		<p class = "title-text">Teens Exploring Code</p>
         <h3 style = "text-align: center !important;">
             Mitchell Park Community Center<br>
             3700 Middlefield Rd, Palo Alto, CA 94303
@@ -66,18 +66,17 @@
     </div>
 </section>
 
-
 <section class="bg-primary" style = "background-color:#332448" id="about">
     <div class="container">
         <div class = "row">
-            <div class = "col-lg-4">
-                <img src="static/img/logowhite.png" id="logo" style="float:center;padding-bottom: 50px">
+            <div class = "col-lg-4" id="logo-web">
+                <img src="static/img/logowhite.png" class="logo" style="float:center;padding-bottom: 50px">
             </div>
-
+            <img src="static/img/logowhite.png" class="logo" id="logo-mobile" style="float:center;padding-bottom: 50px">
             <div class = "col-lg-8">
                 <div class = "about-info">
                     <p>If you have quirky ideas you want to bring to life, or if you want to collaborate on something meaningful with other inquisitive teens like you, join us for Teens Exploring Code (TEC) 2018!</p>
-                    <p>In 15 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking and powerful. With two unique tracks and various workshops throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
+                    <p>In 15 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking and powerful. With various workshops, speakers, and fun activities throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
                 </div>
             </div>
         </div>
@@ -97,7 +96,7 @@
                 <p>10:00PM - TEC: Java (Programming Basics)</p>
                 <p>12:00PM - Lunch/Team Formation</p>
                 <!-- <p>1:00 PM  Hack Club: Build Your First Website</p> -->
-                <p>2:00 PM  QA and UX/UI workshop with Facebook employee</p>
+                <p>2:00 PM  Q/A session with a UI/UX designer at Facebook</p>
                 <p>3:00 PM  Create Your First Discord Bot</p>
                 <p>4:00 PM  Leangap VR Workshop</p>
                 <p>5:00 PM  Dinner</p>
@@ -121,7 +120,7 @@
 
 
 <style>
-.parallax { 
+.parallax {
     background: linear-gradient(rgba(60, 23, 54,.9), rgba(60, 23, 54,.9)),
     url('static/img/parallax1.jpg');
     background-attachment: fixed;
@@ -202,7 +201,7 @@
     color: white;
 }
 </style>
-		
+
 <footer class = "bg-primary" id="sponsors" style="padding-top:50px;padding-bottom: 50px;background-color:#332448">
 	<div class = "container">
 			<div class = "row">
@@ -221,10 +220,10 @@
                 } 
                 </style>
                 <div class = "col-lg-12-offset-3" style="padding-top:0px;">
-                    <img src = "static/sponsor/palogo.png">
-                    <img src = "static/sponsor/thinkfund.png">
-                    <img src = "static/sponsor/leangap-full.png">
-                    <img src = "static/sponsor/localhost-inverted.png">
+                    <img class="sponsor-logo" src = "static/sponsor/palogo.png">
+                    <img class="sponsor-logo" src = "static/sponsor/thinkfund.png">
+                    <img class="sponsor-logo" src = "static/sponsor/leangap-full.png">
+                    <img class="sponsor-logo" src = "static/sponsor/localhost-inverted.png">
                 </div>
             </div>
 		</div>
@@ -238,7 +237,7 @@
                 <a class="ghost-button-short" href="http://teensexploringcode.github.io/teens-exploring-code-2016/" style="">VISIT 2016</a>
 			</div>
 
-			<div class = "col-lg-6"> 
+			<div class = "col-lg-6">
     			<div style = "text-align: right">
         			<a href="https://www.facebook.com/teensexploringcode/"><i class="fa fa-facebook-square" style="padding-right: 10px; padding-bottom:10px; float: center"></i></a>
         			<a href="mailto:teensexploringcode@gmail.com"><i class="fa fa-2x fa-envelope" style = "color:white !important; float: center; text-align: center;     display:inline-block;" aria-hidden="true"></i></a>
